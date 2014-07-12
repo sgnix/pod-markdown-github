@@ -46,13 +46,7 @@ Version 0.01
 =head1 DESCRIPTION
 
 Github flavored markdown allows for syntax highlighting using three
-backticks. For example:
-
-    ```perl
-    sub my_sub {
-        ...
-    }
-    ```
+backticks.
 
 This module inherits from L<Pod::Markdown> and adds those backticks and
 an optional language identifier.

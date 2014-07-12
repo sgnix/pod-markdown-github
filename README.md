@@ -15,15 +15,7 @@ perl -MPod::Markdown::Github -e "Pod::Markdown::Github->filter('file.pod')"
 # DESCRIPTION
 
 Github flavored markdown allows for syntax highlighting using three
-backticks. For example:
-
-```perl
-```perl
-sub my_sub {
-    ...
-}
-```
-```
+backticks.
 
 This module inherits from [Pod::Markdown](https://metacpan.org/pod/Pod::Markdown) and adds those backticks and
 an optional language identifier.
