@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use parent 'Pod::Markdown';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub syntax {
     my ( $self, $paragraph ) = @_;
@@ -71,8 +71,11 @@ detection and syntax highlighting, so the above may not be needed after all.
 
 =head1 AUTHOR
 
-Stefan G. C<minimal @ cpan . org>
+Stefan G. (minimal)
 
+Ben Kaufman (whosgonna)
+
+Nikolay Mishin (mishin)
 
 =head1 LICENCE
 
