@@ -15,7 +15,6 @@ sub syntax {
 
 sub _indent_verbatim {
     my ( $self, $paragraph ) = @_;
-    $DB::single = 1;
     $paragraph = $self->SUPER::_indent_verbatim($paragraph);
 
     # Remove the leading 4 spaces because we'll escape via ```language
