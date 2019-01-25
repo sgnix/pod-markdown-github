@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use parent 'Pod::Markdown';
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub syntax {
     my ( $self, $paragraph ) = @_;
